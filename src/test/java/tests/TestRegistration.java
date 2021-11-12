@@ -9,8 +9,6 @@ public class TestRegistration extends TestBase{
 	HomePage homeobj;
 	RegsiterPage regsiterobj ;
 
-
-	
 	String FirstName=fake.name().fullName();
 	String LastName=fake.name().lastName();
 	String email =fake.internet().emailAddress();

@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-06T14:11:00 EET" name="Default suite" finished-at="2021-11-06T14:11:04 EET" duration-ms="3174">
+  <suite started-at="2021-11-12T17:44:33 EET" name="Default suite" finished-at="2021-11-12T17:44:39 EET" duration-ms="6549">
     <groups>
     </groups>
-    <test started-at="2021-11-06T14:11:00 EET" name="Default test" finished-at="2021-11-06T14:11:04 EET" duration-ms="3174">
-      <class name="tests.TestRegistration">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.TestRegistration@4ebd0b52]" started-at="2021-11-06T14:10:57 EET" name="startDriver" finished-at="2021-11-06T14:11:00 EET" duration-ms="3928" status="PASS">
+    <test started-at="2021-11-12T17:44:33 EET" name="Default test" finished-at="2021-11-12T17:44:39 EET" duration-ms="6549">
+      <class name="tests.TestLogin">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.TestLogin@65a01901]" started-at="2021-11-12T17:44:29 EET" name="startDriver" finished-at="2021-11-12T17:44:33 EET" duration-ms="3399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="UserCanReg()[pri:1, instance:tests.TestRegistration@4ebd0b52]" started-at="2021-11-06T14:11:00 EET" name="UserCanReg" finished-at="2021-11-06T14:11:04 EET" duration-ms="3144" status="PASS">
+        <test-method signature="UserCanReg()[pri:0, instance:tests.TestLogin@65a01901]" started-at="2021-11-12T17:44:33 EET" name="UserCanReg" finished-at="2021-11-12T17:44:36 EET" duration-ms="2831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCanReg -->
-      </class> <!-- tests.TestRegistration -->
+        <test-method signature="UserCanLogout()[pri:1, instance:tests.TestLogin@65a01901]" started-at="2021-11-12T17:44:36 EET" name="UserCanLogout" finished-at="2021-11-12T17:44:37 EET" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLogout -->
+        <test-method signature="UserCanLogin()[pri:2, instance:tests.TestLogin@65a01901]" started-at="2021-11-12T17:44:37 EET" name="UserCanLogin" finished-at="2021-11-12T17:44:39 EET" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLogin -->
+      </class> <!-- tests.TestLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

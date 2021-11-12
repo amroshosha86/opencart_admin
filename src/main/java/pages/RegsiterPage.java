@@ -50,6 +50,8 @@ public class RegsiterPage extends PageBase {
 
 
 	}
+	
+	
 
 
 
