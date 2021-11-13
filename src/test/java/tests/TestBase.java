@@ -1,6 +1,7 @@
 package tests;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
@@ -26,26 +27,12 @@ public class TestBase {
 
 	}
 	
+	// close browser
 	@AfterSuite
-	//CloseDriver
-	private void closeDriver() {
-	driver.quit();
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	public void quitBrowser() {
+		driver.quit();
+		}
 
 }
+
+

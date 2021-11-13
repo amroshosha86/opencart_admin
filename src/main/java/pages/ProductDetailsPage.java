@@ -13,6 +13,12 @@ public class ProductDetailsPage extends PageBase {
 	@FindBy(xpath ="(//button[@type='button'])[9]")
 	WebElement addtocart;
 	
+	@FindBy(css =".alert.alert-success.alert-dismissible")
+	public WebElement addcartsuccessmessage;
+	
+	
+	
+	
 	public void addtocart() throws InterruptedException
 	{
 		
