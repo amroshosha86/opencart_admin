@@ -2,12 +2,14 @@ package pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class HomePage extends PageBase {
 
 	public HomePage(WebDriver driver) {
 		super(driver);
+		action=new Actions(driver);
 
 	}
 
@@ -24,6 +26,15 @@ public class HomePage extends PageBase {
 	WebElement loginbtn;
 	
 	
+	@FindBy(linkText="Desktops")
+	WebElement desktopmenu;
+	
+	@FindBy(linkText ="Mac (1)")
+	WebElement macicon;
+	
+
+	
+
 	
 	public void openMyAccountLink()
 	{
@@ -46,6 +57,18 @@ public class HomePage extends PageBase {
 		myaccountlink.click();
 		loginbtn.click();
 	}
+	
+	public void openmacpage() throws InterruptedException
+	{
+		action.moveToElement(desktopmenu).perform();	
+		macicon.click();
+		
+		
+		
+	}
+	
+	
+	
 	
 
 
