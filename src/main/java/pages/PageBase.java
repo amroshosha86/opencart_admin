@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
@@ -12,6 +13,7 @@ public class PageBase {
 	protected WebDriver driver;
 	public Actions action;
 	public Select select;
+	public JavascriptExecutor js;
 	
 	
 	public PageBase ( WebDriver driver)

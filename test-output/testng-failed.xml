@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.selectCatTest">
+      <class name="tests.UploadimageTest">
         <methods>
           <include name="startDriver"/>
+          <include name="f"/>
           <include name="quitBrowser"/>
-          <include name="USerCanSelectCat"/>
         </methods>
-      </class> <!-- tests.selectCatTest -->
+      </class> <!-- tests.UploadimageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

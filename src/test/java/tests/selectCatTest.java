@@ -23,6 +23,6 @@ public class selectCatTest extends TestBase{
 	  CategoryPageobj.filterbycategorylist(catname);
 	  Assert.assertTrue(CategoryPageobj.productname.getText().contains(productname));
 	  System.out.println(CategoryPageobj.productname.getText());
-	  //
+	  //0
   }
 }

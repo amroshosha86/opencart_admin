@@ -15,8 +15,10 @@ import pages.LoginPage;
 public class TestBase {
 
 	public static WebDriver driver;
+	
 	Faker fake=new Faker();
 	LoginPage LoginPageobj;
+	
 
 
 	@BeforeSuite
@@ -45,7 +47,8 @@ public class TestBase {
 	@AfterSuite
 	public void quitBrowser() 
 	{
-		driver.quit();
+		
+		//driver.quit();
 	}
 
 }
