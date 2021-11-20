@@ -14,16 +14,22 @@ public class PageBase {
 	public Actions action;
 	public Select select;
 	public JavascriptExecutor js;
-	
-	
+
+
 	public PageBase ( WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
-		
+
 	}
-	
-	
-	
-	
+
+	public void scrollToBottom() 
+
+	{
+		js.executeScript("scrollBy(0,3000)"); 
+	}
+
+
+
+
 
 }

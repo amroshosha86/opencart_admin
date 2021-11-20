@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-20T13:52:31 EET" name="Default suite" finished-at="2021-11-20T13:52:46 EET" duration-ms="15411">
+  <suite started-at="2021-11-20T17:21:28 EET" name="Default suite" finished-at="2021-11-20T17:21:44 EET" duration-ms="16102">
     <groups>
     </groups>
-    <test started-at="2021-11-20T13:52:31 EET" name="Default test" finished-at="2021-11-20T13:52:46 EET" duration-ms="15411">
+    <test started-at="2021-11-20T17:21:28 EET" name="Default test" finished-at="2021-11-20T17:21:44 EET" duration-ms="16102">
       <class name="tests.UploadimageTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.UploadimageTest@6ddc817f]" started-at="2021-11-20T13:52:20 EET" name="startDriver" finished-at="2021-11-20T13:52:31 EET" duration-ms="10898" status="PASS">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.UploadimageTest@6ddc817f]" started-at="2021-11-20T17:21:17 EET" name="startDriver" finished-at="2021-11-20T17:21:28 EET" duration-ms="11078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="f()[pri:0, instance:tests.UploadimageTest@6ddc817f]" started-at="2021-11-20T13:52:31 EET" name="f" finished-at="2021-11-20T13:52:46 EET" duration-ms="15361" status="PASS">
+        <test-method signature="f()[pri:0, instance:tests.UploadimageTest@6ddc817f]" started-at="2021-11-20T17:21:28 EET" name="f" finished-at="2021-11-20T17:21:44 EET" duration-ms="16059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.UploadimageTest@6ddc817f]" started-at="2021-11-20T13:52:46 EET" name="quitBrowser" finished-at="2021-11-20T13:52:46 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:tests.UploadimageTest@6ddc817f]" started-at="2021-11-20T17:21:44 EET" name="quitBrowser" finished-at="2021-11-20T17:21:44 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

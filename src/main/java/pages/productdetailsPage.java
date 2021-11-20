@@ -14,18 +14,15 @@ public class productdetailsPage extends PageBase {
 		// TODO Auto-generated constructor stub
 	}
 
-	
+
 	@FindBy(css="#product-pictures")
 	WebElement imagediv;
-	
 
-	public  void scrooldown()
-
+	public void scrooldown()
 	{
-		
-		js.executeScript("window.scrollTo(0,29.600000381469727)");
-		js.executeScript("window.scrollTo(0,1000)");
+		scrollToBottom();
 	}
+	
 
 	public  void openimagediv()
 
@@ -38,7 +35,7 @@ public class productdetailsPage extends PageBase {
 	{
 		js.executeScript("window.scrollTo(0,1.600000381469727)");
 		js.executeScript("window.scrollTo(0,10)");
-		
+
 	}
 
 
