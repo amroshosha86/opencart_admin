@@ -26,6 +26,7 @@ public class UploadimageTest extends TestBase {
 		productdetailsPageobj = new productdetailsPage(driver);
 		productdetailsPageobj.scrooldown();
 		productdetailsPageobj.openimagediv();
+		
 
 		String imageName = "avatar-blank.jpg";
 		String imagePath = System.getProperty("user.dir")+"\\Uploads\\"+imageName;
@@ -53,8 +54,9 @@ public class UploadimageTest extends TestBase {
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(3000);
+		productdetailsPageobj.scrooldownagain();
 
-		WebElement savebtn = driver.findElement(By.xpath("//button[contains(text(),'حفظ التعديلات')]")); 
+		WebElement savebtn = driver.findElement(By.name("save")); 
 		savebtn.click();
 
 		
