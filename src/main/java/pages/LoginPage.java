@@ -16,7 +16,8 @@ public class LoginPage extends PageBase {
 	
 	public void login()
 	{
-		loginbtn.submit();
+		//loginbtn.submit();
+		clickbutton(loginbtn);
 	}
 
 }

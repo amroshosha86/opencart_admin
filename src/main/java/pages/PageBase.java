@@ -26,7 +26,25 @@ public class PageBase {
 
 	{
 		js.executeScript("scrollBy(0,3000)"); 
+		
 	}
+	
+	public void clickbutton(WebElement button) 
+
+	{
+		button.click();
+		
+	}
+
+	
+	static public void settext(WebElement input , String value) 
+
+	{
+		input.sendKeys(value);
+		
+	}
+
+
 
 
 
